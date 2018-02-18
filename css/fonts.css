@@ -1,0 +1,120 @@
+/* FOR FONT-FACE AND HEADER/STYLE LOADING */
+
+/* FONT-FACE BELOW */
+
+/* PROXIMANOVA FONT */
+@font-face {
+  font-family: Raleway;
+  src: local("Raleway Regular"),
+  local("Raleway-Regular"),
+  url(../fonts/Raleway/Raleway-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Raleway Bold;
+  src: local("Ralway Bold"),
+  local("Raleway-Bold"),
+  url(../fonts/Raleway/Raleway-Bold.ttf);
+  font-weight: bold;
+}
+
+/* STYLE BELOW */
+
+.logofont {
+	font-family: "Fira Sans";
+	font-size: 20px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.style2 {
+	font-family: "DIN";
+	font-size: 20px;
+    text-align: left;
+    line-height: 20px;
+    color: #cccccc;
+}
+
+.stylemailto {
+	font-family: "DIN";
+	font-size: 20px;
+    text-align: left;
+    line-height: 20px;
+    color: #cccccc;
+}
+
+.style-releaseno {
+    font-family: "DIN";
+	font-size: 25px;
+    text-align: left;
+    line-height: 20px;
+    color: #cccccc;
+}
+
+/* HEADER BELOW */
+profh1 {
+	font-family: "Raleway";
+	font-size: 8em;
+    text-align: left;
+    color: #fafafafa;
+    word-wrap: break-word
+}
+
+profdesc {
+	font-family: "Raleway";
+	font-size: 4em;
+    text-align: left;
+    color: #fafafafa;
+    text-overflow: none;
+
+}
+
+profdesc2 {
+	font-family: "Raleway";
+	font-size: 1.5em;
+    text-align: left;
+    color: #fafafafa;
+}
+
+rect1 {
+	font-family: "Raleway";
+	font-size: 3em;
+    text-align: left;
+    color: #000000;
+}
+
+rect2 {
+	font-family: "Raleway";
+	font-size: 1.5em;
+    text-align: left;
+    color: #000000;
+}
+
+port {
+	font-family: "Raleway";
+	font-size: 3em;
+    text-align: left;
+    color: #000000;
+}
+
+portdesc {
+	font-family: "Raleway";
+	font-size: 1.5em;
+    text-align: left;
+    color: #000000;
+}
+
+contact {
+	font-family: "Raleway";
+	font-size: 3em;
+    text-align: left;
+    color: #f1f1f1;
+}
+
+contactdesc {
+	font-family: "Raleway";
+	font-size: 1.5em;
+    text-align: left;
+    color: #f1f1f1;
+}

@@ -1,0 +1,265 @@
+/*RESET CSS TOP THE TOP*/
+
+html, body, div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.wrap {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+
+li{
+    display:inline-block;
+    font-size: 28px;
+    padding-top: 5px;
+}
+
+.contentone {
+width: 100%;
+margin: 0 auto;
+display: block;
+padding-top: 50px;
+}
+
+.intro {
+width: 100%;
+height: 40em ;
+object-fit: background;
+margin: 0 auto;
+position: relative;
+
+}
+
+.introfrost {
+width: 100%;
+height: 40em ;
+margin: 0 auto;
+position: absolute;
+background: rgba(200, 200, 200, 0.4);
+top: 1px;
+    
+}
+
+.introprofile {
+height: 20em;
+position: absolute;
+    background-color: #fff;
+    padding: 3px;
+}
+
+@media (max-width: 768px) {
+    .introprofile {
+        height: 15em;
+        overflow: visible;
+        white-space: normal;
+        text-overflow: none;
+    }
+}
+
+
+.introprofbox {
+    
+position: relative;
+padding-left:5%;
+    
+}
+
+.introprofbox2 {
+position: inline-box;
+padding: 20px;
+    width: 20em;
+height: 20em;
+}
+
+@media (max-width: 768px) {
+    .introprofbox2 {
+        height: 17em;
+        overflow: visible;
+        white-space: normal;
+        text-overflow: none;
+    }
+}
+
+
+.introcontent {
+position: absolute ;
+padding-left:1%;
+}
+
+.profh1{
+position: relative;
+}
+
+.profdesc{
+position: relative;
+}
+
+.profdesc2{
+position: relative;
+}
+
+.introfrost2 {
+width: 100%;
+height: 40em ;
+margin: 0 auto;
+position: absolute;
+background: rgba(200, 200, 200, 0.4);
+top: 0px;
+    
+}
+
+.aboutkern {
+top: 21em;
+margin: 0 auto;
+position: relative;
+padding-left: 4em;
+bottom: 1em;
+}
+
+
+@media (max-width: 768px) {
+    .aboutkern {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: none;
+        top: 21em;
+    }
+}
+
+@media (max-width: 755px) {
+    .aboutkern {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: none;
+        top: 19em;
+    }
+}
+
+@media (max-width: 746px) {
+    .aboutkern {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: none;
+        top: 18em;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .aboutkern {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: none;
+        top: 17em;
+    }
+}
+
+@media (max-width: 708px) {
+    .aboutkern {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: none;
+        top: 15em;
+    }
+}
+
+
+.portkern {
+top: 1em;
+margin: 0 auto;
+position: relative;
+padding-left: 4em;
+}
+
+.box1 {
+height: 400px;
+width: 100%;
+margin: 0 auto;
+position: relative;
+background: rgba(180, 180, 180, 1);  
+padding-bottom: 1em;
+}
+
+@media (max-width: 1304px) {
+    .box1 {
+height: 700px;
+    }
+}
+
+@media (max-width: 749px) {
+    .box1 {
+height: 735px;
+    }
+}
+
+@media (max-width: 685px) {
+    .box1 {
+height: 1350px;
+    }
+}
+
+
+.boxbutkern {
+height: 400px;
+margin: 0 auto;
+position: relative;
+top: 1em;
+padding-left: 3em;
+}
+
+@media (max-width: 1304px) {
+    .boxbutkern {
+height: 700px;
+    }
+}
+
+@media (max-width: 749px) {
+    .boxbutkern {
+height: 735px;
+    }
+}
+
+@media (max-width: 685px) {
+    .boxbutkern {
+height: 13px;
+    }
+}
+
+.boxbut {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    background: rgba(255, 255, 50, 1); 
+}
+
+
+.contactbox {
+height: 170px;
+width: 100%;
+margin: 0 auto;
+position: relative;
+background: rgba(140, 140, 140, 1);  
+}
+
+@media (max-width: 816px) {
+    .contactbox {
+height: 190px;
+    }
+}
+
+.contactkern {
+height: 100px;
+margin: 0 auto;
+position: relative;
+top: 2em;
+padding-left: 3em;
+}
+
