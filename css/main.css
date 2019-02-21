@@ -83,32 +83,7 @@ padding-right: 35vw;
 max-width: 65vw;
 }
 
-.header-name {
 
-	font-family: "Oxygen";
-	font-size: 4em;
-    text-align: left;
-    color: #eeeeee;
-    line-height: 0em;
-}
-
-.desc-wip {
-    font-family: "Oxygen";
-	font-size: 1.15em;
-    text-align: left;
-    color: #eeeeee;
-    line-height: 1.15em;
-    font-weight:300;
-}
-
-.desc-abt {
-    font-family: "Oxygen";
-	font-size: 1em;
-    text-align: left;
-    color: #eeeeee;
-    line-height: 1em;
-    font-weight:300;
-}
 
 .wip-wrap{
     
@@ -122,7 +97,7 @@ position: absolute;
 
 .wip-nav {
     font-family: "Oxygen";
-	font-size: 1em;
+	font-size: 1.9vh;
     color: #eeeeee;
     position: relative;
 }
@@ -231,6 +206,37 @@ position:inline;
     
 }
 
+ .header-name {
+
+	font-family: "Oxygen";
+	font-size: 8.5vh;
+    text-align: left;
+    color: #eeeeee;
+    line-height: 0;
+}
+
+.desc-wip {
+    font-family: "Oxygen";
+	font-size: 2vh;
+    text-align: left;
+    color: #eeeeee;
+    line-height: 2.2vh;
+    font-weight:300;
+}
+
+.desc-abt {
+    font-family: "Oxygen";
+	font-size: 1.8vh;
+    text-align: left;
+    color: #eeeeee;
+    line-height: 2vh;
+    font-weight:300;
+}   
+    
+    
+    
+    
+    
     
 }
     
@@ -274,6 +280,37 @@ position:inline;
 padding-right: 0;
 max-width: 90vw;
 }
+    
+    
+     .header-name {
+
+	font-family: "Oxygen";
+	font-size: 9vh;
+    text-align: left;
+    color: #eeeeee;
+    line-height: 0;
+}
+
+.desc-wip {
+    font-family: "Oxygen";
+	font-size: 2.2vh;
+    text-align: left;
+    color: #eeeeee;
+    line-height: 2.4vh;
+    font-weight:300;
+}
+
+.desc-abt {
+    font-family: "Oxygen";
+	font-size: 2vh;
+    text-align: left;
+    color: #eeeeee;
+    line-height: 2vh;
+    font-weight:300;
+}   
+    
+    
+    
     
     
 }
