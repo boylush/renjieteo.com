@@ -1,9 +1,10 @@
 /*FONTS*/
 @font-face {
     font-family: 'Oxygen', sans-serif;
-    @import url('https://fonts.googleapis.com/css?family=Oxygen');
+    @import url('https://fonts.googleapis.com/css?family=Oxygen:400+300');
     font-weight: normal;
 }
+
 
 
 /*ACTUAL STUFF*/
@@ -15,47 +16,106 @@ body{
 
 .centrehor {
 width:90%;
-margin: auto;
+top: 8vh;
 }
 
 .centrehor {
-bottom: 0;
-    padding-bottom: 15%;
+left: 5%;
+margin: 1px;
+position: absolute;
+}
+
+.centrehorabt {
+width:90%;
+top: 8vh;
+}
+
+.centrehorabt {
 left: 5%;
 margin: 1px;
 position: absolute;
 }
 
 
+.centrehorarc {
+width:90%;
+top: 8vh;
+}
 
+.centrehorarc {
+left: 5%;
+margin: 1px;
+position: absolute;
+}
 
+.centrehorhome {
+width:90%;
+}
+
+.centrehorhome {
+left: 5%;
+margin: 1px;
+position: absolute;
+}
+
+img.rightimg {
+border-radius: 50%;
+width: 20vh;
+min-width: 7em;
+max-width: 25vw;
+}
+
+img.rightimgarchi {
+min-width: 7em;
+max-width: 85vw;
+}
+
+img.rightimgabt {
+border-radius: 50%;
+width: 20vh;
+min-width: 7em;
+max-width: 25vw;
+}
+
+.desc1{
+position:inline;
+padding-right: 35vw;
+max-width: 65vw;
+}
 
 .header-name {
 
 	font-family: "Oxygen";
-	font-size: 3em;
+	font-size: 4em;
     text-align: left;
     color: #eeeeee;
-    line-height: 0.25em;
-
+    line-height: 0em;
 }
 
 .desc-wip {
     font-family: "Oxygen";
+	font-size: 1.15em;
+    text-align: left;
+    color: #eeeeee;
+    line-height: 1.15em;
+    font-weight:300;
+}
+
+.desc-abt {
+    font-family: "Oxygen";
 	font-size: 1em;
     text-align: left;
     color: #eeeeee;
-    line-height: 1.5em;
+    line-height: 1em;
+    font-weight:300;
 }
-
-
 
 .wip-wrap{
     
-    width:90%;
+width:90%;
 left: 5%;
-bottom: 0;
-    padding-bottom: 5%;
+top: 0;
+padding-top:5vh;
 position: absolute;
 
 }
@@ -89,6 +149,13 @@ float:left;
 width:33%;
 }
 
+.rightimg{
+    position: absolute;
+    right: 0;
+    height: centre;
+    
+}
+
 
 
 a:link {
@@ -116,6 +183,101 @@ a:active {
 }
 
 
+@media (orientation:landscape){
+    
+    .centrehor {
+width:90%;
+top: 45vh;
+}
+    
+        .centrehorabt {
+width:90%;
+top: 45vh;
+}
+    
+    
+            .centrehorarc {
+width:90%;
+top: 7vh;
+}
+    
+        .centrehorhome {
+width:90%;
+top: 45vh;
+}
+    
+    .rightimg{
+    position: absolute;
+    right: 0;
+    height: centre;
+    
+}
+    
+    
+.desc2{
+position:inline;
+padding-right: 35vw;
+max-width: 65vw;
+}
+    
+    .desc3{
+position:inline;
+}
+    
+    .rightimgabt{
+    position: absolute;
+    right: 0;
+    height: centre;
+    
+}
+
+    
+}
+    
+
+@media (orientation:portrait){
+    
+    .centrehor {
+width:90%;
+top: 8vh;
+}
+    
+    .centrehorabt {
+width:90%;
+top: 18vh;
+}
+    
+        .centrehorarc {
+width:90%;
+top: 7vh;
+}
+
+    .centrehorhome {
+width:90%;
+top: 30vh;
+}
+    
+    
+.rightimgabt{
+   visibility:hidden;
+position:absolute;
+}
+
+    .desc2{
+position:inline;
+padding-right: 0;
+max-width: 90vw;
+}
+    
+        .desc3{
+position:inline;
+padding-right: 0;
+max-width: 90vw;
+}
+    
+    
+}
+
 
 
 
@@ -130,6 +292,7 @@ a:active {
     line-height: 1em;
 
 }
+
 
 }
 
@@ -148,18 +311,7 @@ width:90%;
 margin: auto;
 }
 
-.centrehor {
-top: 0;
-left: 5%;
-margin: 1px;
-position: relative;
-}
-    
-.wip-wrap{
-    top: 0;
-    margin: 1px;
-padding-top: 0px;
-    position: relative;}
+ 
 
 
 }
